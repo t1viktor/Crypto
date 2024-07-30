@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    list-style: none;
+}
+
+.conteudoMenu a{
+    color: var(--neutra-01);
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --neutra-01:#fff;
+    --neutra-02:#000;
+    --neutra-03:#211d28;
+    --neutra-04:#efefff;
+
+    --primario-01:#9a4dff;
+    --primario-02:#ffa7ff;
+    --primario-03:#E990FF;
+    --primario-04:#CF7AFF;
+    --primario-05:#B563FF;
+    --primario-06:#7F35FF;
+    --primario-07:#6218FF;
+    --primario-08: #2B1254;
+    --primario-09: #110619;
+
+    -secundaria-01:#F600DD;
+    -secundaria-02:#ff86ff;
+    -secundaria-03:#ff6cff;
+    -secundaria-04:#FF4FFF;
+    -secundaria-05:#FF2DF4;
+    -secundaria-06:#DD00C6;
+    -secundaria-07:#C400B0;
+    -secundaria-08:#AC009A;
+    -secundaria-09:#940085;
+    
+}
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+    background-color: var(--neutra-01);
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--neutra-03);
+}
+
+
+
+body{
+    background: linear-gradient(to top ,#2B1254 , #000, #000, #000, #000, #2B1254);
+    width: 98vw;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;    
+}
+
+.imgMainDesk{
+    display: none;
+}
+
+.coinTop{
+    position: absolute;
+    top: 0;
+    right: 11%;  
+    z-index: 2; 
+   
+}
+
+.luzcoin{
+    position: absolute;
+    top: -45px;
+    right: 22%;  
+    width: 130px;
+    height: 130px;
+    z-index: 1;
+    border-radius: 50%;
+    box-shadow: 0 0 200px var(--primario-03);
+
+}
+
+.coinRight{
+position: absolute;
+width: 250px;
+top: 140.12px;
+right: 0;
+gap: 0px;
+}
+
+.stripeTop{
+    position: absolute;
+    top: 76%;
+    right: 0;
+    width: 100vw; 
+    z-index: 100;   
+}
+
+.stripeBot{
+    position: absolute;
+    top: 76%;  
+    right: 0;
+    width: 100vw;   
+    z-index: 99;      
+}

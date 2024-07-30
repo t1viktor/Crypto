@@ -1,0 +1,223 @@
+@media (min-width: 1024px) {
+   
+    :root {
+        --neutra-01: #fff;
+        --neutra-02: #000;
+        --neutra-03: #211d28;
+        --neutra-04: #efefff;
+    
+        --primario-01: #9a4dff;
+        --primario-02: #ffa7ff;
+        --primario-03: #E990FF;
+        --primario-04: #CF7AFF;
+        --primario-05: #B563FF;
+        --primario-06: #7F35FF;
+        --primario-07: #6218FF;
+        --primario-08: #2B1254;
+        --primario-09: #110619;
+    
+        --secundaria-01: #F600DD;
+        --secundaria-02: #ff86ff;
+        --secundaria-03: #ff6cff;
+        --secundaria-04: #FF4FFF;
+        --secundaria-05: #FF2DF4;
+        --secundaria-06: #DD00C6;
+        --secundaria-07: #C400B0;
+        --secundaria-08: #AC009A;
+        --secundaria-09: #940085;
+    }
+   
+    body {
+    width: 100%;
+    overflow-x: hidden;
+    }
+
+    header{
+     height: 80px;
+     padding: 24px 42px 24px 32px;
+     position: fixed;
+     z-index: 2000;
+     background-color: #2b12540e;
+     backdrop-filter: blur(3px);
+    }
+
+    h1{
+
+font-size: 54px;
+font-weight: 900;
+line-height: 64px;
+padding-left: 149px;
+padding-top: 80px;
+
+    }
+
+    .sec-01 div{
+        display: flex;
+        flex-direction: row;
+        padding-left: 149px;
+        cursor: pointer;
+    }
+
+    .coinTop{
+        display: none;
+    }
+
+    .coinRight{
+        display: none;
+    }
+
+    .luzcoin{
+        display: none;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .conteudoMenu{
+        display: flex;
+    }
+
+    .conteudoMenu ul{
+        display: flex;
+        gap: 32px;
+        color: white;
+    }
+
+    .conteudoMenu li{
+font-size: 18px;
+font-weight: 400;
+line-height: 18px;
+text-align: center;
+cursor: pointer;
+
+    }
+
+    .imgMainDesk{
+        display: block;
+position: absolute;
+top: 14%;
+right: 8%;
+height: 90%;
+    }
+
+    .stripeTop{
+       display: none; 
+    }
+    
+    .stripeBot{
+       display: none;     
+    }
+
+    .sec-02, .sec-03{
+        padding-left: 149px;
+
+    }
+
+    .header-sec-02{
+        width: 470px;
+    }
+
+    .filters button{
+        transition: all .3s ease-in-out;
+    }
+
+    .filters button:hover{
+        border: solid 1px var(--primario-01);
+        cursor: pointer;
+        padding:4px 20px;
+    }
+
+    .trending-category{
+        display: flex;
+        gap: 20%;
+        width: 100vw;
+    }
+
+    .top-sec-03{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .thisweek{
+        width: 10%;
+        margin-right: 149px;
+    }
+
+    .perfil{
+        width: 80vw;
+        transition: all .2s ease-in-out;
+    }
+
+    .perfil:hover{
+        background-color: #b663ff17;
+        cursor: pointer;
+    }
+
+    .sec-04{
+        background-image: url(/assets/img/subscribeBackground.png);
+    }
+
+
+
+    .sec-04 h2{
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 56px;
+        text-align: center;
+        
+    }
+
+    .sec-05 ul,.sec-05 h2{
+        margin-left: 149px;
+        margin-right: 149px;
+        width: 80vw;
+    }
+
+    details{
+        width: 100%;
+    }
+
+    .sec-02, .sec-03, .sec-05{
+        height: 100vh;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      
+    }
+
+
+    @keyframes section {
+        0% {
+        transform: translateY(-10vh);
+
+        }
+
+        70%{
+            transform: translateY(10vh);
+        }
+
+        100%{
+            transform: translateY(0vh);
+        }
+    }
+
+    footer{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .footerSocial{
+        margin-right: 30%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul{
+        
+        width: 400px;
+    }
+  
+  }
+  
